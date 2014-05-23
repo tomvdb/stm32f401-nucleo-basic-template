@@ -1,0 +1,700 @@
+In file included from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_def.h:48:0,
+                 from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_rcc.h:47,
+                 from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_conf.h:217,
+                 from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal.h:48,
+                 from STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:54:
+CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:141:3: error: #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+  #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+   ^
+In file included from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_conf.h:217:0,
+                 from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal.h:48,
+                 from STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:54:
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_rcc.h:64:3: error: unknown type name 'uint32_t'
+   uint32_t PLLState;   /*!< The new state of the PLL.
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_rcc.h:67:3: error: unknown type name 'uint32_t'
+   uint32_t PLLSource;  /*!< RCC_PLLSource: PLL entry clock source.
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_rcc.h:70:3: error: unknown type name 'uint32_t'
+   uint32_t PLLM;       /*!< PLLM: Division factor for PLL VCO input clock
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_rcc.h:73:3: error: unknown type name 'uint32_t'
+   uint32_t PLLN;       /*!< PLLN: Multiplication factor for PLL VCO output clock
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_rcc.h:76:3: error: unknown type name 'uint32_t'
+   uint32_t PLLP;       /*!< PLLP: Division factor for main system clock (SYSCLK)
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_rcc.h:79:3: error: unknown type name 'uint32_t'
+   uint32_t PLLQ;       /*!< PLLQ: Division factor for OTG FS, SDIO and RNG clocks
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_rcc.h:89:3: error: unknown type name 'uint32_t'
+   uint32_t OscillatorType;       /*!< The oscillators to be configured.
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_rcc.h:92:3: error: unknown type name 'uint32_t'
+   uint32_t HSEState;             /*!< The new state of the HSE.
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_rcc.h:95:3: error: unknown type name 'uint32_t'
+   uint32_t LSEState;             /*!< The new state of the LSE.
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_rcc.h:98:3: error: unknown type name 'uint32_t'
+   uint32_t HSIState;             /*!< The new state of the HSI.
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_rcc.h:101:3: error: unknown type name 'uint32_t'
+   uint32_t HSICalibrationValue;  /*!< The calibration trimming value.
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_rcc.h:104:3: error: unknown type name 'uint32_t'
+   uint32_t LSIState;             /*!< The new state of the LSI.
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_rcc.h:116:3: error: unknown type name 'uint32_t'
+   uint32_t ClockType;             /*!< The clock to be configured.
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_rcc.h:119:3: error: unknown type name 'uint32_t'
+   uint32_t SYSCLKSource;          /*!< The clock source (SYSCLKS) used as system clock.
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_rcc.h:122:3: error: unknown type name 'uint32_t'
+   uint32_t AHBCLKDivider;         /*!< The AHB clock (HCLK) divider. This clock is derived from the system clock (SYSCLK).
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_rcc.h:125:3: error: unknown type name 'uint32_t'
+   uint32_t APB1CLKDivider;        /*!< The APB1 clock (PCLK1) divider. This clock is derived from the AHB clock (HCLK).
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_rcc.h:128:3: error: unknown type name 'uint32_t'
+   uint32_t APB2CLKDivider;        /*!< The APB2 clock (PCLK2) divider. This clock is derived from the AHB clock (HCLK).
+   ^
+In file included from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_rcc.h:1137:0,
+                 from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_conf.h:217,
+                 from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal.h:48,
+                 from STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:54:
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_rcc_ex.h:857:45: error: unknown type name 'RCC_PeriphCLKInitTypeDef'
+ HAL_StatusTypeDef HAL_RCCEx_PeriphCLKConfig(RCC_PeriphCLKInitTypeDef  *PeriphClkInit);
+                                             ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_rcc_ex.h:858:35: error: unknown type name 'RCC_PeriphCLKInitTypeDef'
+ void HAL_RCCEx_GetPeriphCLKConfig(RCC_PeriphCLKInitTypeDef  *PeriphClkInit);
+                                   ^
+In file included from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_conf.h:217:0,
+                 from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal.h:48,
+                 from STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:54:
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_rcc.h:1144:78: error: unknown type name 'uint32_t'
+ HAL_StatusTypeDef HAL_RCC_ClockConfig(RCC_ClkInitTypeDef *RCC_ClkInitStruct, uint32_t FLatency);
+                                                                              ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_rcc.h:1147:28: error: unknown type name 'uint32_t'
+ void     HAL_RCC_MCOConfig(uint32_t RCC_MCOx, uint32_t RCC_MCOSource, uint32_t RCC_MCODiv);
+                            ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_rcc.h:1147:47: error: unknown type name 'uint32_t'
+ void     HAL_RCC_MCOConfig(uint32_t RCC_MCOx, uint32_t RCC_MCOSource, uint32_t RCC_MCODiv);
+                                               ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_rcc.h:1147:71: error: unknown type name 'uint32_t'
+ void     HAL_RCC_MCOConfig(uint32_t RCC_MCOx, uint32_t RCC_MCOSource, uint32_t RCC_MCODiv);
+                                                                       ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_rcc.h:1150:1: error: unknown type name 'uint32_t'
+ uint32_t HAL_RCC_GetSysClockFreq(void);
+ ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_rcc.h:1151:1: error: unknown type name 'uint32_t'
+ uint32_t HAL_RCC_GetHCLKFreq(void);
+ ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_rcc.h:1152:1: error: unknown type name 'uint32_t'
+ uint32_t HAL_RCC_GetPCLK1Freq(void);
+ ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_rcc.h:1153:1: error: unknown type name 'uint32_t'
+ uint32_t HAL_RCC_GetPCLK2Freq(void);
+ ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_rcc.h:1155:72: error: unknown type name 'uint32_t'
+ void     HAL_RCC_GetClockConfig(RCC_ClkInitTypeDef *RCC_ClkInitStruct, uint32_t *pFLatency);
+                                                                        ^
+In file included from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_conf.h:221:0,
+                 from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal.h:48,
+                 from STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:54:
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_gpio.h:64:3: error: unknown type name 'uint32_t'
+   uint32_t Pin;       /*!< Specifies the GPIO pins to be configured.
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_gpio.h:67:3: error: unknown type name 'uint32_t'
+   uint32_t Mode;      /*!< Specifies the operating mode for the selected pins.
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_gpio.h:70:3: error: unknown type name 'uint32_t'
+   uint32_t Pull;      /*!< Specifies the Pull-up or Pull-Down activation for the selected pins.
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_gpio.h:73:3: error: unknown type name 'uint32_t'
+   uint32_t Speed;     /*!< Specifies the speed for the selected pins.
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_gpio.h:76:3: error: unknown type name 'uint32_t'
+   uint32_t Alternate;  /*!< Peripheral to be connected to the selected pins 
+   ^
+In file included from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_conf.h:221:0,
+                 from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal.h:48,
+                 from STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:54:
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_gpio.h:253:21: error: unknown type name 'GPIO_TypeDef'
+ void  HAL_GPIO_Init(GPIO_TypeDef  *GPIOx, GPIO_InitTypeDef *GPIO_Init);
+                     ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_gpio.h:254:23: error: unknown type name 'GPIO_TypeDef'
+ void  HAL_GPIO_DeInit(GPIO_TypeDef  *GPIOx, uint32_t GPIO_Pin);
+                       ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_gpio.h:254:45: error: unknown type name 'uint32_t'
+ void  HAL_GPIO_DeInit(GPIO_TypeDef  *GPIOx, uint32_t GPIO_Pin);
+                                             ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_gpio.h:257:32: error: unknown type name 'GPIO_TypeDef'
+ GPIO_PinState HAL_GPIO_ReadPin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+                                ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_gpio.h:257:53: error: unknown type name 'uint16_t'
+ GPIO_PinState HAL_GPIO_ReadPin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+                                                     ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_gpio.h:258:33: error: unknown type name 'GPIO_TypeDef'
+ void          HAL_GPIO_WritePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+                                 ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_gpio.h:258:54: error: unknown type name 'uint16_t'
+ void          HAL_GPIO_WritePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+                                                      ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_gpio.h:259:34: error: unknown type name 'GPIO_TypeDef'
+ void          HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+                                  ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_gpio.h:259:55: error: unknown type name 'uint16_t'
+ void          HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+                                                       ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_gpio.h:260:40: error: unknown type name 'uint16_t'
+ void          HAL_GPIO_EXTI_IRQHandler(uint16_t GPIO_Pin);
+                                        ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_gpio.h:261:31: error: unknown type name 'uint16_t'
+ void   HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin);
+                               ^
+In file included from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_conf.h:229:0,
+                 from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal.h:48,
+                 from STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:54:
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_cortex.h:130:35: error: unknown type name 'uint32_t'
+ void HAL_NVIC_SetPriorityGrouping(uint32_t PriorityGroup);
+                                   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_cortex.h:131:27: error: unknown type name 'IRQn_Type'
+ void HAL_NVIC_SetPriority(IRQn_Type IRQn, uint32_t PreemptPriority, uint32_t SubPriority);
+                           ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_cortex.h:131:43: error: unknown type name 'uint32_t'
+ void HAL_NVIC_SetPriority(IRQn_Type IRQn, uint32_t PreemptPriority, uint32_t SubPriority);
+                                           ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_cortex.h:131:69: error: unknown type name 'uint32_t'
+ void HAL_NVIC_SetPriority(IRQn_Type IRQn, uint32_t PreemptPriority, uint32_t SubPriority);
+                                                                     ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_cortex.h:132:25: error: unknown type name 'IRQn_Type'
+ void HAL_NVIC_EnableIRQ(IRQn_Type IRQn);
+                         ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_cortex.h:133:26: error: unknown type name 'IRQn_Type'
+ void HAL_NVIC_DisableIRQ(IRQn_Type IRQn);
+                          ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_cortex.h:135:1: error: unknown type name 'uint32_t'
+ uint32_t HAL_SYSTICK_Config(uint32_t TicksNumb);
+ ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_cortex.h:135:29: error: unknown type name 'uint32_t'
+ uint32_t HAL_SYSTICK_Config(uint32_t TicksNumb);
+                             ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_cortex.h:138:1: error: unknown type name 'uint32_t'
+ uint32_t HAL_NVIC_GetPriorityGrouping(void);
+ ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_cortex.h:139:27: error: unknown type name 'IRQn_Type'
+ void HAL_NVIC_GetPriority(IRQn_Type IRQn, uint32_t PriorityGroup, uint32_t* pPreemptPriority, uint32_t* pSubPriority);
+                           ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_cortex.h:139:43: error: unknown type name 'uint32_t'
+ void HAL_NVIC_GetPriority(IRQn_Type IRQn, uint32_t PriorityGroup, uint32_t* pPreemptPriority, uint32_t* pSubPriority);
+                                           ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_cortex.h:139:67: error: unknown type name 'uint32_t'
+ void HAL_NVIC_GetPriority(IRQn_Type IRQn, uint32_t PriorityGroup, uint32_t* pPreemptPriority, uint32_t* pSubPriority);
+                                                                   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_cortex.h:139:95: error: unknown type name 'uint32_t'
+ void HAL_NVIC_GetPriority(IRQn_Type IRQn, uint32_t PriorityGroup, uint32_t* pPreemptPriority, uint32_t* pSubPriority);
+                                                                                               ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_cortex.h:140:1: error: unknown type name 'uint32_t'
+ uint32_t HAL_NVIC_GetPendingIRQ(IRQn_Type IRQn);
+ ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_cortex.h:140:33: error: unknown type name 'IRQn_Type'
+ uint32_t HAL_NVIC_GetPendingIRQ(IRQn_Type IRQn);
+                                 ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_cortex.h:141:29: error: unknown type name 'IRQn_Type'
+ void HAL_NVIC_SetPendingIRQ(IRQn_Type IRQn);
+                             ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_cortex.h:142:31: error: unknown type name 'IRQn_Type'
+ void HAL_NVIC_ClearPendingIRQ(IRQn_Type IRQn);
+                               ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_cortex.h:143:1: error: unknown type name 'uint32_t'
+ uint32_t HAL_NVIC_GetActive(IRQn_Type IRQn);
+ ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_cortex.h:143:29: error: unknown type name 'IRQn_Type'
+ uint32_t HAL_NVIC_GetActive(IRQn_Type IRQn);
+                             ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_cortex.h:144:34: error: unknown type name 'uint32_t'
+ void HAL_SYSTICK_CLKSourceConfig(uint32_t CLKSource);
+                                  ^
+In file included from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_conf.h:265:0,
+                 from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal.h:48,
+                 from STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:54:
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash.h:88:3: error: unknown type name '__IO'
+   __IO FLASH_ProcedureTypeDef ProcedureOnGoing;   /*Internal variable to indicate which procedure is ongoing or not in IT context*/
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash.h:88:31: error: expected ':', ',', ';', '}' or '__attribute__' before 'ProcedureOnGoing'
+   __IO FLASH_ProcedureTypeDef ProcedureOnGoing;   /*Internal variable to indicate which procedure is ongoing or not in IT context*/
+                               ^
+In file included from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash.h:323:0,
+                 from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_conf.h:265,
+                 from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal.h:48,
+                 from STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:54:
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash_ex.h:64:3: error: unknown type name 'uint32_t'
+   uint32_t TypeErase;   /*!< TypeErase: Mass erase or sector Erase.
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash_ex.h:67:3: error: unknown type name 'uint32_t'
+   uint32_t Banks;       /*!< Banks: Select banks to erase when Mass erase is enabled
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash_ex.h:70:3: error: unknown type name 'uint32_t'
+   uint32_t Sector;      /*!< Sector: Initial FLASH sector to erase when Mass erase is disabled
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash_ex.h:73:3: error: unknown type name 'uint32_t'
+   uint32_t NbSectors;   /*!< NbSectors: Number of sectors to be erased.
+   ^
+In file included from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash.h:323:0,
+                 from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_conf.h:265,
+                 from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal.h:48,
+                 from STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:54:
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash_ex.h:76:3: error: unknown type name 'uint32_t'
+   uint32_t VoltageRange;/*!< VoltageRange: The device voltage range which defines the erase parallelism
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash_ex.h:86:3: error: unknown type name 'uint32_t'
+   uint32_t OptionType;   /*!< OptionType: Option byte to be configured.
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash_ex.h:89:3: error: unknown type name 'uint32_t'
+   uint32_t WRPState;     /*!< WRPState: Write protection activation or deactivation.
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash_ex.h:92:3: error: unknown type name 'uint32_t'
+   uint32_t WRPSector;         /*!< WRPSector: specifies the sector(s) to be write protected
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash_ex.h:95:3: error: unknown type name 'uint32_t'
+   uint32_t Banks;        /*!< Banks: Select banks for WRP activation/deactivation of all sectors
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash_ex.h:98:3: error: unknown type name 'uint32_t'
+   uint32_t RDPLevel;     /*!< RDPLevel: Set the read protection level..
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash_ex.h:101:3: error: unknown type name 'uint32_t'
+   uint32_t BORLevel;     /*!< BORLevel: Set the BOR Level.
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash_ex.h:104:3: error: unknown type name 'uint8_t'
+   uint8_t  USERConfig;   /*!< USERConfig: Program the FLASH User Option Byte: IWDG_SW / RST_STOP / RST_STDBY.
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash_ex.h:705:73: error: unknown type name 'uint32_t'
+ HAL_StatusTypeDef HAL_FLASHEx_Erase(FLASH_EraseInitTypeDef *pEraseInit, uint32_t *SectorError);
+                                                                         ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash_ex.h:720:25: error: unknown type name 'uint32_t'
+ void FLASH_Erase_Sector(uint32_t Sector, uint8_t VoltageRange);
+                         ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash_ex.h:720:42: error: unknown type name 'uint8_t'
+ void FLASH_Erase_Sector(uint32_t Sector, uint8_t VoltageRange);
+                                          ^
+In file included from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_conf.h:265:0,
+                 from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal.h:48,
+                 from STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:54:
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash.h:327:39: error: unknown type name 'uint32_t'
+ HAL_StatusTypeDef   HAL_FLASH_Program(uint32_t TypeProgram, uint32_t Address, uint64_t Data);
+                                       ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash.h:327:61: error: unknown type name 'uint32_t'
+ HAL_StatusTypeDef   HAL_FLASH_Program(uint32_t TypeProgram, uint32_t Address, uint64_t Data);
+                                                             ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash.h:327:79: error: unknown type name 'uint64_t'
+ HAL_StatusTypeDef   HAL_FLASH_Program(uint32_t TypeProgram, uint32_t Address, uint64_t Data);
+                                                                               ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash.h:328:42: error: unknown type name 'uint32_t'
+ HAL_StatusTypeDef   HAL_FLASH_Program_IT(uint32_t TypeProgram, uint32_t Address, uint64_t Data);
+                                          ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash.h:328:64: error: unknown type name 'uint32_t'
+ HAL_StatusTypeDef   HAL_FLASH_Program_IT(uint32_t TypeProgram, uint32_t Address, uint64_t Data);
+                                                                ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash.h:328:82: error: unknown type name 'uint64_t'
+ HAL_StatusTypeDef   HAL_FLASH_Program_IT(uint32_t TypeProgram, uint32_t Address, uint64_t Data);
+                                                                                  ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash.h:332:47: error: unknown type name 'uint32_t'
+ void         HAL_FLASH_EndOfOperationCallback(uint32_t ReturnValue);
+                                               ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash.h:333:47: error: unknown type name 'uint32_t'
+ void         HAL_FLASH_OperationErrorCallback(uint32_t ReturnValue);
+                                               ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash.h:346:46: error: unknown type name 'uint32_t'
+ HAL_StatusTypeDef FLASH_WaitForLastOperation(uint32_t Timeout);
+                                              ^
+In file included from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_conf.h:309:0,
+                 from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal.h:48,
+                 from STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:54:
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_pwr.h:63:3: error: unknown type name 'uint32_t'
+   uint32_t PVDLevel;   /*!< PVDLevel: Specifies the PVD detection level
+   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_pwr.h:66:3: error: unknown type name 'uint32_t'
+   uint32_t Mode;      /*!< Mode: Specifies the operating mode for the selected pins.
+   ^
+In file included from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_conf.h:309:0,
+                 from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal.h:48,
+                 from STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:54:
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_pwr.h:307:37: error: unknown type name 'uint32_t'
+ void        HAL_PWR_EnableWakeUpPin(uint32_t WakeUpPinx);
+                                     ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_pwr.h:308:38: error: unknown type name 'uint32_t'
+ void        HAL_PWR_DisableWakeUpPin(uint32_t WakeUpPinx);
+                                      ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_pwr.h:310:35: error: unknown type name 'uint32_t'
+ void        HAL_PWR_EnterSTOPMode(uint32_t Regulator, uint8_t STOPEntry);
+                                   ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_pwr.h:310:55: error: unknown type name 'uint8_t'
+ void        HAL_PWR_EnterSTOPMode(uint32_t Regulator, uint8_t STOPEntry);
+                                                       ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_pwr.h:311:36: error: unknown type name 'uint32_t'
+ void        HAL_PWR_EnterSLEEPMode(uint32_t Regulator, uint8_t SLEEPEntry);
+                                    ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_pwr.h:311:56: error: unknown type name 'uint8_t'
+ void        HAL_PWR_EnterSLEEPMode(uint32_t Regulator, uint8_t SLEEPEntry);
+                                                        ^
+In file included from STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:54:0:
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal.h:158:20: error: unknown type name '__IO'
+ void     HAL_Delay(__IO uint32_t Delay);
+                    ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal.h:159:1: error: unknown type name 'uint32_t'
+ uint32_t HAL_GetTick(void);
+ ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal.h:160:1: error: unknown type name 'uint32_t'
+ uint32_t HAL_GetHalVersion(void);
+ ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal.h:161:1: error: unknown type name 'uint32_t'
+ uint32_t HAL_GetREVID(void);
+ ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal.h:162:1: error: unknown type name 'uint32_t'
+ uint32_t HAL_GetDEVID(void);
+ ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:96:1: error: unknown type name '__IO'
+ static __IO uint32_t uwTick;
+ ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:96:22: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'uwTick'
+ static __IO uint32_t uwTick;
+                      ^
+In file included from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_conf.h:265:0,
+                 from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal.h:48,
+                 from STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:54:
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c: In function 'HAL_Init':
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash.h:237:50: error: 'FLASH' undeclared (first use in this function)
+ #define __HAL_FLASH_INSTRUCTION_CACHE_ENABLE()  (FLASH->ACR |= FLASH_ACR_ICEN)
+                                                  ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:145:4: note: in expansion of macro '__HAL_FLASH_INSTRUCTION_CACHE_ENABLE'
+    __HAL_FLASH_INSTRUCTION_CACHE_ENABLE();
+    ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash.h:237:50: note: each undeclared identifier is reported only once for each function it appears in
+ #define __HAL_FLASH_INSTRUCTION_CACHE_ENABLE()  (FLASH->ACR |= FLASH_ACR_ICEN)
+                                                  ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:145:4: note: in expansion of macro '__HAL_FLASH_INSTRUCTION_CACHE_ENABLE'
+    __HAL_FLASH_INSTRUCTION_CACHE_ENABLE();
+    ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash.h:237:64: error: 'FLASH_ACR_ICEN' undeclared (first use in this function)
+ #define __HAL_FLASH_INSTRUCTION_CACHE_ENABLE()  (FLASH->ACR |= FLASH_ACR_ICEN)
+                                                                ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:145:4: note: in expansion of macro '__HAL_FLASH_INSTRUCTION_CACHE_ENABLE'
+    __HAL_FLASH_INSTRUCTION_CACHE_ENABLE();
+    ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash.h:249:57: error: 'FLASH_ACR_DCEN' undeclared (first use in this function)
+ #define __HAL_FLASH_DATA_CACHE_ENABLE()  (FLASH->ACR |= FLASH_ACR_DCEN)
+                                                         ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:149:4: note: in expansion of macro '__HAL_FLASH_DATA_CACHE_ENABLE'
+    __HAL_FLASH_DATA_CACHE_ENABLE();
+    ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_flash.h:225:62: error: 'FLASH_ACR_PRFTEN' undeclared (first use in this function)
+ #define __HAL_FLASH_PREFETCH_BUFFER_ENABLE()  (FLASH->ACR |= FLASH_ACR_PRFTEN)
+                                                              ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:153:3: note: in expansion of macro '__HAL_FLASH_PREFETCH_BUFFER_ENABLE'
+   __HAL_FLASH_PREFETCH_BUFFER_ENABLE();
+   ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:157:3: warning: implicit declaration of function 'HAL_SYSTICK_Config' [-Wimplicit-function-declaration]
+   HAL_SYSTICK_Config(HSI_VALUE/ 1000);
+   ^
+In file included from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal.h:48:0,
+                 from STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:54:
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_conf.h:113:26: error: 'uint32_t' undeclared (first use in this function)
+   #define HSI_VALUE    ((uint32_t)16000000) /*!< Value of the Internal oscillator in Hz*/
+                          ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:157:22: note: in expansion of macro 'HSI_VALUE'
+   HAL_SYSTICK_Config(HSI_VALUE/ 1000);
+                      ^
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_conf.h:113:35: error: expected ')' before numeric constant
+   #define HSI_VALUE    ((uint32_t)16000000) /*!< Value of the Internal oscillator in Hz*/
+                                   ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:157:22: note: in expansion of macro 'HSI_VALUE'
+   HAL_SYSTICK_Config(HSI_VALUE/ 1000);
+                      ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:160:3: warning: implicit declaration of function 'HAL_NVIC_SetPriorityGrouping' [-Wimplicit-function-declaration]
+   HAL_NVIC_SetPriorityGrouping(NVIC_PRIORITYGROUP_4);
+   ^
+In file included from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_conf.h:229:0,
+                 from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal.h:48,
+                 from STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:54:
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_cortex.h:76:49: error: expected ')' before numeric constant
+ #define NVIC_PRIORITYGROUP_4         ((uint32_t)0x00000003) /*!< 4 bits for pre-emption priority
+                                                 ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:160:32: note: in expansion of macro 'NVIC_PRIORITYGROUP_4'
+   HAL_NVIC_SetPriorityGrouping(NVIC_PRIORITYGROUP_4);
+                                ^
+In file included from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_conf.h:217:0,
+                 from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal.h:48,
+                 from STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:54:
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c: In function 'HAL_DeInit':
+STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_rcc.h:668:35: error: 'RCC' undeclared (first use in this function)
+ #define __APB1_FORCE_RESET()     (RCC->APB1RSTR = 0xFFFFFFFF)  
+                                   ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:178:3: note: in expansion of macro '__APB1_FORCE_RESET'
+   __APB1_FORCE_RESET();
+   ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c: In function 'HAL_IncTick':
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:258:3: error: 'uwTick' undeclared (first use in this function)
+   uwTick++;
+   ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c: At top level:
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:266:1: error: unknown type name 'uint32_t'
+ uint32_t HAL_GetTick(void)
+ ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c: In function 'HAL_GetTick':
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:268:10: error: 'uwTick' undeclared (first use in this function)
+   return uwTick;  
+          ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c: At top level:
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:282:16: error: unknown type name '__IO'
+ void HAL_Delay(__IO uint32_t Delay)
+                ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:297:1: error: unknown type name 'uint32_t'
+ uint32_t HAL_GetHalVersion(void)
+ ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:307:1: error: unknown type name 'uint32_t'
+ uint32_t HAL_GetREVID(void)
+ ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c: In function 'HAL_GetREVID':
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:309:12: error: 'DBGMCU' undeclared (first use in this function)
+    return((DBGMCU->IDCODE) >> 16);
+            ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c: At top level:
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:317:1: error: unknown type name 'uint32_t'
+ uint32_t HAL_GetDEVID(void)
+ ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c: In function 'HAL_GetDEVID':
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:319:12: error: 'DBGMCU' undeclared (first use in this function)
+    return((DBGMCU->IDCODE) & IDCODE_DEVID_MASK);
+            ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:79:32: error: 'uint32_t' undeclared (first use in this function)
+ #define IDCODE_DEVID_MASK    ((uint32_t)0x00000FFF)
+                                ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:319:30: note: in expansion of macro 'IDCODE_DEVID_MASK'
+    return((DBGMCU->IDCODE) & IDCODE_DEVID_MASK);
+                              ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:79:41: error: expected ')' before numeric constant
+ #define IDCODE_DEVID_MASK    ((uint32_t)0x00000FFF)
+                                         ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:319:30: note: in expansion of macro 'IDCODE_DEVID_MASK'
+    return((DBGMCU->IDCODE) & IDCODE_DEVID_MASK);
+                              ^
+In file included from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_def.h:48:0,
+                 from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_rcc.h:47,
+                 from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal_conf.h:217,
+                 from STM32F4xx_HAL_Driver/inc/stm32f4xx_hal.h:48,
+                 from STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:54:
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c: In function 'HAL_EnableDBGSleepMode':
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:329:11: error: 'DBGMCU' undeclared (first use in this function)
+   SET_BIT(DBGMCU->CR, DBGMCU_CR_DBG_SLEEP);
+           ^
+CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:178:33: note: in definition of macro 'SET_BIT'
+ #define SET_BIT(REG, BIT)     ((REG) |= (BIT))
+                                 ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:329:23: error: 'DBGMCU_CR_DBG_SLEEP' undeclared (first use in this function)
+   SET_BIT(DBGMCU->CR, DBGMCU_CR_DBG_SLEEP);
+                       ^
+CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:178:42: note: in definition of macro 'SET_BIT'
+ #define SET_BIT(REG, BIT)     ((REG) |= (BIT))
+                                          ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c: In function 'HAL_DisableDBGSleepMode':
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:339:13: error: 'DBGMCU' undeclared (first use in this function)
+   CLEAR_BIT(DBGMCU->CR, DBGMCU_CR_DBG_SLEEP);
+             ^
+CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:180:33: note: in definition of macro 'CLEAR_BIT'
+ #define CLEAR_BIT(REG, BIT)   ((REG) &= ~(BIT))
+                                 ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:339:25: error: 'DBGMCU_CR_DBG_SLEEP' undeclared (first use in this function)
+   CLEAR_BIT(DBGMCU->CR, DBGMCU_CR_DBG_SLEEP);
+                         ^
+CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:180:43: note: in definition of macro 'CLEAR_BIT'
+ #define CLEAR_BIT(REG, BIT)   ((REG) &= ~(BIT))
+                                           ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c: In function 'HAL_EnableDBGStopMode':
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:349:11: error: 'DBGMCU' undeclared (first use in this function)
+   SET_BIT(DBGMCU->CR, DBGMCU_CR_DBG_STOP);
+           ^
+CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:178:33: note: in definition of macro 'SET_BIT'
+ #define SET_BIT(REG, BIT)     ((REG) |= (BIT))
+                                 ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:349:23: error: 'DBGMCU_CR_DBG_STOP' undeclared (first use in this function)
+   SET_BIT(DBGMCU->CR, DBGMCU_CR_DBG_STOP);
+                       ^
+CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:178:42: note: in definition of macro 'SET_BIT'
+ #define SET_BIT(REG, BIT)     ((REG) |= (BIT))
+                                          ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c: In function 'HAL_DisableDBGStopMode':
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:359:13: error: 'DBGMCU' undeclared (first use in this function)
+   CLEAR_BIT(DBGMCU->CR, DBGMCU_CR_DBG_STOP);
+             ^
+CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:180:33: note: in definition of macro 'CLEAR_BIT'
+ #define CLEAR_BIT(REG, BIT)   ((REG) &= ~(BIT))
+                                 ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:359:25: error: 'DBGMCU_CR_DBG_STOP' undeclared (first use in this function)
+   CLEAR_BIT(DBGMCU->CR, DBGMCU_CR_DBG_STOP);
+                         ^
+CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:180:43: note: in definition of macro 'CLEAR_BIT'
+ #define CLEAR_BIT(REG, BIT)   ((REG) &= ~(BIT))
+                                           ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c: In function 'HAL_EnableDBGStandbyMode':
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:369:11: error: 'DBGMCU' undeclared (first use in this function)
+   SET_BIT(DBGMCU->CR, DBGMCU_CR_DBG_STANDBY);
+           ^
+CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:178:33: note: in definition of macro 'SET_BIT'
+ #define SET_BIT(REG, BIT)     ((REG) |= (BIT))
+                                 ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:369:23: error: 'DBGMCU_CR_DBG_STANDBY' undeclared (first use in this function)
+   SET_BIT(DBGMCU->CR, DBGMCU_CR_DBG_STANDBY);
+                       ^
+CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:178:42: note: in definition of macro 'SET_BIT'
+ #define SET_BIT(REG, BIT)     ((REG) |= (BIT))
+                                          ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c: In function 'HAL_DisableDBGStandbyMode':
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:379:13: error: 'DBGMCU' undeclared (first use in this function)
+   CLEAR_BIT(DBGMCU->CR, DBGMCU_CR_DBG_STANDBY);
+             ^
+CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:180:33: note: in definition of macro 'CLEAR_BIT'
+ #define CLEAR_BIT(REG, BIT)   ((REG) &= ~(BIT))
+                                 ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:379:25: error: 'DBGMCU_CR_DBG_STANDBY' undeclared (first use in this function)
+   CLEAR_BIT(DBGMCU->CR, DBGMCU_CR_DBG_STANDBY);
+                         ^
+CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:180:43: note: in definition of macro 'CLEAR_BIT'
+ #define CLEAR_BIT(REG, BIT)   ((REG) &= ~(BIT))
+                                           ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c: In function 'HAL_EnableCompensationCell':
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:390:5: error: '__IO' undeclared (first use in this function)
+   *(__IO uint32_t *)CMPCR_CMP_PD_BB = (uint32_t)ENABLE;
+     ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:390:10: error: expected ')' before 'uint32_t'
+   *(__IO uint32_t *)CMPCR_CMP_PD_BB = (uint32_t)ENABLE;
+          ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:93:36: error: 'PERIPH_BB_BASE' undeclared (first use in this function)
+ #define CMPCR_CMP_PD_BB           (PERIPH_BB_BASE + (CMPCR_OFFSET * 32) + (CMP_PD_BitNumber * 4))                                         
+                                    ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:390:21: note: in expansion of macro 'CMPCR_CMP_PD_BB'
+   *(__IO uint32_t *)CMPCR_CMP_PD_BB = (uint32_t)ENABLE;
+                     ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:82:36: error: 'SYSCFG_BASE' undeclared (first use in this function)
+ #define SYSCFG_OFFSET             (SYSCFG_BASE - PERIPH_BASE)
+                                    ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:91:36: note: in expansion of macro 'SYSCFG_OFFSET'
+ #define CMPCR_OFFSET              (SYSCFG_OFFSET + 0x20) 
+                                    ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:93:54: note: in expansion of macro 'CMPCR_OFFSET'
+ #define CMPCR_CMP_PD_BB           (PERIPH_BB_BASE + (CMPCR_OFFSET * 32) + (CMP_PD_BitNumber * 4))                                         
+                                                      ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:390:21: note: in expansion of macro 'CMPCR_CMP_PD_BB'
+   *(__IO uint32_t *)CMPCR_CMP_PD_BB = (uint32_t)ENABLE;
+                     ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:82:50: error: 'PERIPH_BASE' undeclared (first use in this function)
+ #define SYSCFG_OFFSET             (SYSCFG_BASE - PERIPH_BASE)
+                                                  ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:91:36: note: in expansion of macro 'SYSCFG_OFFSET'
+ #define CMPCR_OFFSET              (SYSCFG_OFFSET + 0x20) 
+                                    ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:93:54: note: in expansion of macro 'CMPCR_OFFSET'
+ #define CMPCR_CMP_PD_BB           (PERIPH_BB_BASE + (CMPCR_OFFSET * 32) + (CMP_PD_BitNumber * 4))                                         
+                                                      ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:390:21: note: in expansion of macro 'CMPCR_CMP_PD_BB'
+   *(__IO uint32_t *)CMPCR_CMP_PD_BB = (uint32_t)ENABLE;
+                     ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:92:37: error: 'uint8_t' undeclared (first use in this function)
+ #define CMP_PD_BitNumber          ((uint8_t)0x00) 
+                                     ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:93:76: note: in expansion of macro 'CMP_PD_BitNumber'
+ #define CMPCR_CMP_PD_BB           (PERIPH_BB_BASE + (CMPCR_OFFSET * 32) + (CMP_PD_BitNumber * 4))                                         
+                                                                            ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:390:21: note: in expansion of macro 'CMPCR_CMP_PD_BB'
+   *(__IO uint32_t *)CMPCR_CMP_PD_BB = (uint32_t)ENABLE;
+                     ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:92:45: error: expected ')' before numeric constant
+ #define CMP_PD_BitNumber          ((uint8_t)0x00) 
+                                             ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:93:76: note: in expansion of macro 'CMP_PD_BitNumber'
+ #define CMPCR_CMP_PD_BB           (PERIPH_BB_BASE + (CMPCR_OFFSET * 32) + (CMP_PD_BitNumber * 4))                                         
+                                                                            ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:390:21: note: in expansion of macro 'CMPCR_CMP_PD_BB'
+   *(__IO uint32_t *)CMPCR_CMP_PD_BB = (uint32_t)ENABLE;
+                     ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:390:40: error: 'uint32_t' undeclared (first use in this function)
+   *(__IO uint32_t *)CMPCR_CMP_PD_BB = (uint32_t)ENABLE;
+                                        ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:390:49: error: expected ';' before 'ENABLE'
+   *(__IO uint32_t *)CMPCR_CMP_PD_BB = (uint32_t)ENABLE;
+                                                 ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c: In function 'HAL_DisableCompensationCell':
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:401:5: error: '__IO' undeclared (first use in this function)
+   *(__IO uint32_t *)CMPCR_CMP_PD_BB = (uint32_t)DISABLE;
+     ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:401:10: error: expected ')' before 'uint32_t'
+   *(__IO uint32_t *)CMPCR_CMP_PD_BB = (uint32_t)DISABLE;
+          ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:93:36: error: 'PERIPH_BB_BASE' undeclared (first use in this function)
+ #define CMPCR_CMP_PD_BB           (PERIPH_BB_BASE + (CMPCR_OFFSET * 32) + (CMP_PD_BitNumber * 4))                                         
+                                    ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:401:21: note: in expansion of macro 'CMPCR_CMP_PD_BB'
+   *(__IO uint32_t *)CMPCR_CMP_PD_BB = (uint32_t)DISABLE;
+                     ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:82:36: error: 'SYSCFG_BASE' undeclared (first use in this function)
+ #define SYSCFG_OFFSET             (SYSCFG_BASE - PERIPH_BASE)
+                                    ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:91:36: note: in expansion of macro 'SYSCFG_OFFSET'
+ #define CMPCR_OFFSET              (SYSCFG_OFFSET + 0x20) 
+                                    ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:93:54: note: in expansion of macro 'CMPCR_OFFSET'
+ #define CMPCR_CMP_PD_BB           (PERIPH_BB_BASE + (CMPCR_OFFSET * 32) + (CMP_PD_BitNumber * 4))                                         
+                                                      ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:401:21: note: in expansion of macro 'CMPCR_CMP_PD_BB'
+   *(__IO uint32_t *)CMPCR_CMP_PD_BB = (uint32_t)DISABLE;
+                     ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:82:50: error: 'PERIPH_BASE' undeclared (first use in this function)
+ #define SYSCFG_OFFSET             (SYSCFG_BASE - PERIPH_BASE)
+                                                  ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:91:36: note: in expansion of macro 'SYSCFG_OFFSET'
+ #define CMPCR_OFFSET              (SYSCFG_OFFSET + 0x20) 
+                                    ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:93:54: note: in expansion of macro 'CMPCR_OFFSET'
+ #define CMPCR_CMP_PD_BB           (PERIPH_BB_BASE + (CMPCR_OFFSET * 32) + (CMP_PD_BitNumber * 4))                                         
+                                                      ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:401:21: note: in expansion of macro 'CMPCR_CMP_PD_BB'
+   *(__IO uint32_t *)CMPCR_CMP_PD_BB = (uint32_t)DISABLE;
+                     ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:92:37: error: 'uint8_t' undeclared (first use in this function)
+ #define CMP_PD_BitNumber          ((uint8_t)0x00) 
+                                     ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:93:76: note: in expansion of macro 'CMP_PD_BitNumber'
+ #define CMPCR_CMP_PD_BB           (PERIPH_BB_BASE + (CMPCR_OFFSET * 32) + (CMP_PD_BitNumber * 4))                                         
+                                                                            ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:401:21: note: in expansion of macro 'CMPCR_CMP_PD_BB'
+   *(__IO uint32_t *)CMPCR_CMP_PD_BB = (uint32_t)DISABLE;
+                     ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:92:45: error: expected ')' before numeric constant
+ #define CMP_PD_BitNumber          ((uint8_t)0x00) 
+                                             ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:93:76: note: in expansion of macro 'CMP_PD_BitNumber'
+ #define CMPCR_CMP_PD_BB           (PERIPH_BB_BASE + (CMPCR_OFFSET * 32) + (CMP_PD_BitNumber * 4))                                         
+                                                                            ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:401:21: note: in expansion of macro 'CMPCR_CMP_PD_BB'
+   *(__IO uint32_t *)CMPCR_CMP_PD_BB = (uint32_t)DISABLE;
+                     ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:401:40: error: 'uint32_t' undeclared (first use in this function)
+   *(__IO uint32_t *)CMPCR_CMP_PD_BB = (uint32_t)DISABLE;
+                                        ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:401:49: error: expected ';' before 'DISABLE'
+   *(__IO uint32_t *)CMPCR_CMP_PD_BB = (uint32_t)DISABLE;
+                                                 ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c: In function 'HAL_GetTick':
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:269:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c: In function 'HAL_GetREVID':
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:310:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c: In function 'HAL_GetDEVID':
+STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c:320:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [stm32f4xx_hal.o] Error 1

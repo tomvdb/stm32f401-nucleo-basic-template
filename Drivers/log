@@ -1,0 +1,1 @@
+arm-none-eabi-gcc -g -O2 -Wall -mlittle-endian -mthumb -mcpu=cortex-m4 -march=armv6s-m -ffreestanding -nostdlib -DUSE_STDPERIPH_DRIVER -ICMSIS/Include -ICMSIS/Device/ST/STM32F4xx/Include -ISTM32F4xx_HAL_Driver/inc -c -o stm32f4xx_hal.o STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c

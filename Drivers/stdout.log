@@ -1,0 +1,1 @@
+arm-none-eabi-gcc -g -O2 -Wall -mcpu=cortex-m4 -mthumb -mlittle-endian -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb-interwork -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -ICMSIS/Include -ICMSIS/Device/ST/STM32F4xx/Include -ISTM32F4xx_HAL_Driver/inc -c -o stm32f4xx_hal.o STM32F4xx_HAL_Driver/src/stm32f4xx_hal.c
