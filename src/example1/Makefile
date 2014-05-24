@@ -47,7 +47,7 @@ vpath %.a $(STD_PERIPH_LIB)
 ROOT=$(shell pwd)
 
 CFLAGS += -I inc -I $(STD_PERIPH_LIB) -I $(STD_PERIPH_LIB)/CMSIS/Device/ST/STM32F4xx/Include
-CFLAGS += -I $(STD_PERIPH_LIB)/CMSIS/Include -I $(STD_PERIPH_LIB)/STM32F4xx_HAL_Driver/inc
+CFLAGS += -I $(STD_PERIPH_LIB)/CMSIS/Include -I $(STD_PERIPH_LIB)/STM32F4xx_HAL_Driver/Inc
 CFLAGS += -include $(STD_PERIPH_LIB)/stm32f4xx_hal_conf.h
 
 SRCS += ../../Device/startup_stm32f401xe.s # add startup file to build

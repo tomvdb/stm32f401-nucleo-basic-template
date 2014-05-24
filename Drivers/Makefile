@@ -3,13 +3,13 @@ AR=arm-none-eabi-ar
 
 ###########################################
 
-vpath %.c STM32F4xx_HAL_Driver/src
+vpath %.c STM32F4xx_HAL_Driver/Src
 
 CFLAGS  = -ggdb -O0 -Wall -Wextra -Warray-bounds
 CFLAGS += -mcpu=cortex-m4 -mthumb -mlittle-endian -mthumb-interwork
 CFLAGS += -mfloat-abi=hard -mfpu=fpv4-sp-d16
 CFLAGS += -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DSTM32F401xE
-CFLAGS += -ICMSIS/Include -ICMSIS/Device/ST/STM32F4xx/Include -ISTM32F4xx_HAL_Driver/inc
+CFLAGS += -ICMSIS/Include -ICMSIS/Device/ST/STM32F4xx/Include -ISTM32F4xx_HAL_Driver/Inc
 
 SRCS = stm32f4xx_hal.c           stm32f4xx_hal_msp_template.c \
  stm32f4xx_hal_adc.c       stm32f4xx_hal_nand.c \
