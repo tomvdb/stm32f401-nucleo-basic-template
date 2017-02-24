@@ -75,6 +75,9 @@ $(PROJ_NAME).elf: $(SRCS) | lib
 	$(OBJCOPY) -O binary $(PROJ_NAME).elf $(PROJ_NAME).bin
 	$(OBJDUMP) -St $(PROJ_NAME).elf >$(PROJ_NAME).lst
 	$(SIZE) $(PROJ_NAME).elf
+
+program: $(PROJ_NAME).elf
+	openocd -f program.cfg
 	
 clean:
 	find ./ -name '*~' | xargs rm -f	
