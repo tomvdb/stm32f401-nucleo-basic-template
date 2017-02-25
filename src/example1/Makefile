@@ -62,19 +62,22 @@ OBJS = $(SRCS:.c=.o)
 
 .PHONY: lib proj
 
-all: lib proj
+all: proj
 
 lib:
 	$(MAKE) -C $(STD_PERIPH_LIB)
 
 proj: 	$(PROJ_NAME).elf
 
-$(PROJ_NAME).elf: $(SRCS)
+$(PROJ_NAME).elf: $(SRCS) | lib
 	$(CC) $(CFLAGS) $^ -o $@ -L$(STD_PERIPH_LIB) -lstmf4 -L$(LDSCRIPT_INC) -Tnucleo.ld -g
 	$(OBJCOPY) -O ihex $(PROJ_NAME).elf $(PROJ_NAME).hex
 	$(OBJCOPY) -O binary $(PROJ_NAME).elf $(PROJ_NAME).bin
 	$(OBJDUMP) -St $(PROJ_NAME).elf >$(PROJ_NAME).lst
 	$(SIZE) $(PROJ_NAME).elf
+
+program: $(PROJ_NAME).elf
+	openocd -f program.cfg
 	
 clean:
 	find ./ -name '*~' | xargs rm -f	
